@@ -1,0 +1,330 @@
+@font-face {
+    font-family: "avenir";
+    src: url("../fonts/avenir-light-webfont.eot");
+    src: url("../fonts/avenir-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir-light-webfont.woff2") format("woff2"), url("../fonts/avenir-light-webfont.woff") format("woff"), url("../fonts/avenir-light-webfont.ttf") format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "avenir";
+    src: url("../fonts/avenir-roman-webfont.eot");
+    src: url("../fonts/avenir-roman-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir-roman-webfont.woff2") format("woff2"), url("../fonts/avenir-roman-webfont.woff") format("woff"), url("../fonts/avenir-roman-webfont.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "avenir";
+    src: url("../fonts/avenir-medium-webfont.eot");
+    src: url("../fonts/avenir-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir-medium-webfont.woff2") format("woff2"), url("../fonts/avenir-medium-webfont.woff") format("woff"), url("../fonts/avenir-medium-webfont.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "avenir";
+    src: url("../fonts/avenir-heavy-webfont.eot");
+    src: url("../fonts/avenir-heavy-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir-heavy-webfont.woff2") format("woff2"), url("../fonts/avenir-heavy-webfont.woff") format("woff"), url("../fonts/avenir-heavy-webfont.ttf") format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "avenir";
+    src: url("../fonts/avenir-black-webfont.eot");
+    src: url("../fonts/avenir-black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir-black-webfont.woff2") format("woff2"), url("../fonts/avenir-black-webfont.woff") format("woff"), url("../fonts/avenir-black-webfont.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "gotham";
+    src: url("../fonts/gotham-bold-webfont.eot");
+    src: url("../fonts/gotham-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-bold-webfont.woff2") format("woff2"), url("../fonts/gotham-bold-webfont.woff") format("woff"), url("../fonts/gotham-bold-webfont.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "avenir", sans-serif;
+    font-weight: 400;
+    color: #2E3030;
+    font-size: 14px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+
+
+/*Just for this document*/
+
+.wrapper {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.column40r {
+    width: 40%;
+    float: right;
+    margin-right: 4em;
+    padding: inherit;
+}
+
+
+/*Position stuff*/
+
+.center {
+    text-align: center;
+}
+
+
+/*Typography for desktop*/
+
+h2 {
+    font-size: 2.857em;
+    /*line-height: 52px;*/
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 1.214em;
+    line-height: 1.6em;
+    color: #585959;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+
+.smalltext {
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.buttoniconl {
+    padding-left: 8px;
+}
+
+.ctatext {
+    font-family: "gotham", sans-serif;
+    font-weight: 600;
+    font-size: 0.857em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.buttonlink {
+    text-decoration: none;
+}
+
+
+/* Here's the stuff for the module */
+
+.premiumsection {
+    width: 100%;
+    background-color: #f7f7f7;
+    height: 900px;
+    box-sizing: border-box;
+    padding: 8% 0;
+}
+
+.tvhbo {
+    background-image: url("../images/tvhbo@3x.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: left;
+}
+
+.tvshowtime {
+    background-image: url("../images/tvshowtime@3x.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: left;
+}
+
+.tvstarz {
+    background-image: url("../images/tvstarz@3x.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: left;
+}
+
+.tvcinemax {
+    background-image: url("../images/tvcinemax@3x.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: left;
+}
+
+.legaltext {
+    display: block;
+    clear: both;
+}
+
+.channelbutton {
+    background: #FFFFFF;
+    border: 1px solid #E9ECF2;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    width: 22%;
+    height: 40px;
+    float: left;
+}
+
+.channelbutton:hover {
+    opacity: 1;
+}
+
+.channelbuttonactive {
+    box-shadow: 0px 0px 6px 3px rgba(65, 65, 63, 0.10);
+    position: relative;
+    z-index: 3;
+}
+
+.channellogo {
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 0;
+    opacity: .5;
+}
+
+.channellogo:hover {
+    opacity: 1;
+}
+
+.hbo {
+    background-image: url("../images/hbologoblack@3x.png");
+}
+
+.showtime {
+    background-image: url("../images/showtimelogo@3x.png");
+}
+
+.starz {
+    background-image: url("../images/starzlogo@3x.png");
+}
+
+.cinemax {
+    background-image: url("../images/cinemaxlogo@3x.png");
+}
+
+.focus {
+    opacity: 1;
+    z-index: 5;
+    position: relative;
+}
+
+/*Basic text modification classes*/
+
+.gray3 {
+    color: #9B9B9B;
+}
+
+.white {
+    color: #fff;
+}
+
+.purple {
+    color: #702082;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        font-size: 12px;
+    }
+    .ctatext {
+        font-size: 1em;
+    }
+    .tvhbo {
+        background-size: 40%;
+    }
+    .column40r {
+        padding: 15% 0;
+    }
+    .channelbutton {
+        height: 20px;
+    }
+    .channellogo {
+        background-size: 80%;
+        padding: 10px 0;
+    }
+    .legaltext {
+        font-size: 8px;
+        line-height: 10px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        text-align: center;
+    }
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    .column40r {
+        float: none;
+        clear: both;
+        margin: 20% auto 0 auto;
+        width: 90%;
+    }
+    .premiumsection {
+        width: 100%;
+        background-color: #f7f7f7;
+        height: auto;
+        box-sizing: border-box;
+        padding: 8% 0;
+    }
+    .channelbutton {
+        margin: 0 -4px 20px -4px;
+        padding: 20px 0;
+        width: 22%;
+        height: 30px;
+        float: none;
+    }
+    .channellogo {
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 15px 0;
+        opacity: .5;
+        box-sizing: border-box;
+    }
+    .focus {
+        opacity: 1;
+    }
+    .tvhbo {
+        background-image: url("../images/tvhbo_mobile@3x.png");
+        background-repeat: no-repeat;
+        background-size: 70%;
+        background-position: top;
+        margin: 20px auto;
+    }
+    .tvshowtime {
+        background-image: url("../images/tvshowtime_mobile@3x.png");
+        background-repeat: no-repeat;
+        background-size: 70%;
+        background-position: top;
+        margin: 20px auto;
+    }
+    .tvstarz {
+        background-image: url("../images/tvstarz_mobile@3x.png");
+        background-repeat: no-repeat;
+        background-size: 70%;
+        background-position: top;
+        margin: 20px auto;
+    }
+    .tvcinemax {
+        background-image: url("../images/tvcinemax_mobile@3x.png");
+        background-repeat: no-repeat;
+        background-size: 70%;
+        background-position: top;
+        margin: 20px auto;
+    }
+}
