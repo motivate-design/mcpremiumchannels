@@ -240,9 +240,6 @@ p {
     .ctatext {
         font-size: 1em;
     }
-    .tvhbo {
-        background-size: 40%;
-    }
     .column40r {
         padding: 15% 0;
     }
@@ -262,6 +259,9 @@ p {
 @media only screen and (max-width: 700px) {
     body {
         text-align: center;
+    }
+    h2 {
+        padding-top: 20px;
     }
     .wrapper {
         width: 100%;
@@ -304,27 +304,23 @@ p {
         background-repeat: no-repeat;
         background-size: 70%;
         background-position: top;
-        margin: 20px auto;
     }
     .tvshowtime {
         background-image: url("../images/tvshowtime_mobile@3x.png");
         background-repeat: no-repeat;
         background-size: 70%;
         background-position: top;
-        margin: 20px auto;
     }
     .tvstarz {
         background-image: url("../images/tvstarz_mobile@3x.png");
         background-repeat: no-repeat;
         background-size: 70%;
         background-position: top;
-        margin: 20px auto;
     }
     .tvcinemax {
         background-image: url("../images/tvcinemax_mobile@3x.png");
         background-repeat: no-repeat;
         background-size: 70%;
         background-position: top;
-        margin: 20px auto;
     }
 }
